@@ -52,4 +52,4 @@ export HF_HUB_ENABLE_HF_TRANSFER=1
 
 cd /root
 
-python3 ./ComfyUI/main.py --listen --port 8188 ${CLI_ARGS}
+python3 /root/ComfyUI/main.py --listen --port 8188 ${CLI_ARGS}
